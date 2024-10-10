@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Day 19 Project: GitHub Profile Viewer App 🔍✨
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+The **GitHub Profile Viewer** application allows users to search for GitHub profiles and view profile details, including repositories.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Search by GitHub Username**: Enter a GitHub username to fetch profile details.
+- **Display Profile Details**: View user information such as name, bio, and avatar.
+- **List User Repositories**: See a list of the user's public repositories.
+- **Responsive Design**: Accessible on all devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: A React framework for building full-stack web applications.
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Shadcn UI**: Beautifully designed Tailwind CSS components.
+- **GitHub API**: Official GitHub API for profile and repository data.
+- **Vercel**: For deploying the Next.js web application.
 
-## Learn More
+## Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+Check out the live demo of the GitHub Profile Viewer App on Vercel:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Live Demo](https://vercel.live/link/github-profile-viewer-app-eight.vercel.app/?via=team-dashboard-project-entity&p=1)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Screenshot
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Github-Profile-Viewer](https://github.com/user-attachments/assets/7e318037-65e7-4134-9d69-409a5947dba7)
